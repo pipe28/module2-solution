@@ -1,3 +1,5 @@
+
+
 .titulo {
     font-family: 'Permanent Marker';
     font-size: 40px;
@@ -8,13 +10,14 @@
     color: blue;
 }
 
- section {
+ div {
     font-family: 'Montserrat';font-size: 22px;
     background-color: #BBDEFB;
     font-style: italic;
     box-sizing: border-box;
     border: 1px solid black;
     margin: 10px;
+    position: relative;
 }
 
 #titulo-seccion {
@@ -22,11 +25,9 @@
     color: white;
     border: 1px solid black;
     text-align: right;
-    padding: 5px;
+    padding: 15px;
     width: fit-content;
-    
-}
-
-@media (min-width: 992px){
-    
+    position: relative;
+    right: 0px;
+    margin-top: 0px;
 }
